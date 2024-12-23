@@ -2,7 +2,7 @@
 # Get F1 Information
 
 This project provides real-time F1 Information using API communications.
-
+The user compiles a form where he decides which kind of information he wants to get, and once he submit the form, an URL is generated and an API rest is made. Once the API responses, the user can see a list of information regarding the form he has compiled.
 Special thanks to the [OpenF1 API](https://openf1.org/) for making this little project possible
 ## Key Features
 - **Drivers**:  information about drivers for each session.
