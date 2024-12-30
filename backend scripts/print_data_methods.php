@@ -6,7 +6,7 @@ function print_data($data, $formType, $url) {
     echo $url . "<br>";
 
     if (empty($data)) {
-        echo "<h3>Something went wrong</h3>";
+        echo "<h3>Something went wrong => <a href='../index.html'>go back to the form</a></h3>";
         return;
     }
 
@@ -32,7 +32,7 @@ function print_data($data, $formType, $url) {
             break;
         
         default:
-            echo "<h3>Something went wrong</h3>";
+            echo "<h3>Something went wrong => <a href='\'>go back to the form</a></h3>";
             break;
     }
 }
